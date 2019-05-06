@@ -1,0 +1,70 @@
+body {
+    background-image: url(paper.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Alegreya' , serif;
+}
+header {
+    background-color:#8d7f72;
+    padding:5px;
+    width:60%;
+    margin-right: 20%;
+    margin-left: 20%;
+    text-align: center;
+    border: 5px solid #41372e;
+}
+h1{
+    color: #41372e;
+    font-family: 'Courgette' , cursive;
+    font-size: 4em;
+     
+}
+
+  
+/* If the screen size is 601px or more, set the font-size of <nav> to 50px */
+@media only screen and (min-width: 601px) {
+    nav {
+      font-size: 15px;
+    }
+    h1 {
+        font-size: 80px;
+      }
+    
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <nav> to 30px */
+  @media only screen and (max-width: 600px) {
+    nav {
+      font-size: 5px;
+    }
+    h1 {
+        font-size: 30px;
+      }
+  }
+
+nav{
+    margin-right:5%;
+    margin-left:5%;
+}
+a:link  {
+    color:#2e3d41;
+    background-color: #8d7f72;
+    width:30%;
+    background-color:#48808d;
+    border: 2px solid #41372e;
+    padding: 2px;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+    margin-top: 2px;
+    font-size: 2em;
+    
+
+   
+    
+}
+a:visited {
+    color: #8d7f72;
+    background-color: #2e3d41;
+
+}
